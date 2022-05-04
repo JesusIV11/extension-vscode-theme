@@ -1,0 +1,31 @@
+{
+    "name": "my-extension01",
+    "displayName": "my-extension01",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Extension new codigo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Extension new codigo-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon/tema.png",
+    "author": {
+        "name": "Jesus I.V",
+        "email": "jesusalbertoisiquevasquez@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/JesusIV11/extension-vscode-theme.git",
+        "type": "git"
+    },
+    "publisher": "codigo-yisus"
+}
